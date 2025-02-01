@@ -13,11 +13,11 @@ const InputBox = ({name, type, id, value, placeholder, icon, disable = false}) =
                 placeholder={placeholder}
                 defaultValue={value}
                 id={id}
-                className="input-box "
+                className="w-[100%] rounded-md p-4 bg-grey pl-12 border border-grey focus:bg-transparent placeholder:text-black "
                 disabled={disable}
             />
 
-            <i className={"fi " + icon +" input-icon"}></i>
+            <i className={"fi " + icon}></i>
 
             {
                 type=="password"?

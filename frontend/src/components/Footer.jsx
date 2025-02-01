@@ -18,8 +18,8 @@ function Footer() {
           <h4 className="text-lg font-semibold text-white">Quick Links</h4>
           <ul className="mt-2 space-y-2">
             <li><a href='/' className="hover:underline">Home</a></li>
-            <li><a href="#" className="hover:underline">Features</a></li>
-            <li><a href="#" className="hover:underline">Privacy Policy</a></li>
+            <li><a href="#why" className="hover:underline">Features</a></li>
+            <li><a className="hover:underline">Privacy Policy</a></li>
             <li><a href="/contactus" className="hover:underline">Contact Us</a></li>
           </ul>
         </div>
@@ -36,7 +36,7 @@ function Footer() {
         </div>
       </div>
       <div className="text-center mt-8 border-t border-gray-600 pt-4">
-        © 2024 InterviewSphere. All rights reserved.
+        © 2025 InterviewSphere. All rights reserved.
       </div>
     </footer>
 
