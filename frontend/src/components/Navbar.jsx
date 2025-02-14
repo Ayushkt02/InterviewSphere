@@ -88,7 +88,7 @@ const Navbar = () => {
               </button>
               {/* Dropdown */}
               <ul className="absolute right-0 w-48 bg-white text-black rounded-lg shadow-lg hidden group-hover:block">
-              <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer"><Link  to={`/Candidate/${username}`}>Profile</Link></li>
+              <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer"><Link  to={`/${username}`}>Profile</Link></li>
                 <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer">Settings</li>
                 <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer" onClick={logOutUser}>Logout</li>
               </ul>
@@ -134,7 +134,7 @@ const Navbar = () => {
           href="#about"
           className="text-black font-semibold hover:text-gray-700 block text-center"
         >
-          <Link  to={`/Candidate/${username}`}>Profile</Link>
+          <Link  to={`/${username}`}>Profile</Link>
         </a>
         <a
         onClick={logOutUser}

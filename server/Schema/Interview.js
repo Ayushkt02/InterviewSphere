@@ -43,6 +43,10 @@ const interviewSchema = new mongoose.Schema({
     ref: 'User',
     required: true,
   },
+  interviewLink: {
+    type: String,
+    default: '',
+  },
   status: {
     type: String,
     enum: ['Requested', 'Scheduled', 'Completed'],
@@ -50,11 +54,13 @@ const interviewSchema = new mongoose.Schema({
   },
   feedback: {
     type: String,
+    default: '',
   },
   score: {
     type: Number,
-    min: 0,
+    min: -1,
     max: 100,
+    default: -1
   },
 }, { timestamps: true });
 

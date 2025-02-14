@@ -3,8 +3,6 @@ import { NavLink } from "react-router-dom";
 import { UserContext } from "../App";
 import axios from "axios";
 
-
-
 const InterviewCard = ({ title, companyType, duration, content }) => {
   return (
     <div className="flex flex-col justify-between w-full md:w-72 border-2 rounded-lg bg-white p-6 shadow-sm hover:shadow-lg hover:scale-105 transition-all duration-300">

@@ -54,8 +54,8 @@ const CandidateHome = () => {
             </button>
             {/* Dropdown */}
             <ul className="absolute right-0 mt-1 w-48 bg-white text-black rounded-lg shadow-lg hidden group-hover:block">
-              <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer"><Link  to={`/Candidate/${username}`}>Profile</Link></li>
-              <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer"><Link >Settings</Link></li>
+              <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer"><Link  to={`/${username}`}>Profile</Link></li>
+              <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer"><Link>Settings</Link></li>
               <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer" onClick={logOutUser}>Logout</li>
             </ul>
           </div>
