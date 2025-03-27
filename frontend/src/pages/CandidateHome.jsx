@@ -37,7 +37,7 @@ const CandidateHome = () => {
       <nav className="bg-black text-white flex justify-between items-center px-6 py-4">
         {/* Logo */}
         <div onClick={() => navigate('/')} className="text-4xl font-extrabold text-black tracking-tight cursor-pointer">
-          <span className="text-white">Interview</span><span className="text-gray-500">Sphare</span>
+          <span className="text-white">Interview</span><span className="text-gray-500">Sphere</span>
         </div>
 
         {/* Right side */}

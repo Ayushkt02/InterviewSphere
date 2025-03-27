@@ -28,7 +28,7 @@ const ContactUs = () => {
     <div className='flex pt-7 pl-7 pb-4 items-center bg-gray-300'>
       <NavLink to={'/'}>
         <div className="text-4xl font-extrabold text-black tracking-tight cursor-pointer">
-          <span className="text-black">Interview</span><span className="text-gray-500">Sphare</span>
+          <span className="text-black">Interview</span><span className="text-gray-500">Sphere</span>
         </div>
       </NavLink>
     </div>
